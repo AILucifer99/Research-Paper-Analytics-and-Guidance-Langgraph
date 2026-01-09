@@ -1,6 +1,6 @@
 import asyncio
 import os
-from src.research_system import ResearchAnalysisSystem
+from src.graph import ResearchAnalysisSystem
 
 async def main():
     system = ResearchAnalysisSystem(
@@ -9,8 +9,11 @@ async def main():
     )
 
     results = await system.analyze_topics([
-        "Retrieval Augmented Generation with LLMs on video content with reinforcement learning",
+        "Retrieval Augmented Generation on Video Data.",
+        "Multi-Agent Reinforcement Learning with memory.",
+        "Agentic Computer Vision System for Image Analysis."
     ])
+    
     print("\n" + "="*50)
     print("RESEARCH ANALYSIS COMPLETE")
     print("="*50)
