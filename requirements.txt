@@ -5,6 +5,7 @@ langchain-core
 langgraph
 python-dotenv
 pydantic
+matplotlib
 fpdf
 reportlab
 openai
