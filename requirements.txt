@@ -7,3 +7,11 @@ python-dotenv
 pydantic
 fpdf
 reportlab
+openai
+sentence-transformers 
+pypdf2
+scikit-learn
+asyncio
+requests
+
+
