@@ -13,5 +13,4 @@ pypdf2
 scikit-learn
 asyncio
 requests
-
-
+numpy
